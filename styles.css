@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.country {
+    border: 1px solid black;
+    padding: 9px;
+    text-align: center;
+}
+
+.flag {
+    width: 91%;
+    height: auto;
+}
